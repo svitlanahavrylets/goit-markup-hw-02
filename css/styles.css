@@ -1,9 +1,119 @@
 body {
-    font-size: 16px;
-    background-color: white;
-
-    font-family: ;
-    color:  
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
+/* ============== Common styles ============== */
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+img {
+  display: block;
+}
+h2, 
+h3 {
+color: #2e2f42;
+}
+/* ============== /Common styles ============== */
+
+/* ============== Page header styles ============== */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-part {
+  color: #2e2f42;
+}
+.menu-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
+}
+.address-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+/* ============== /Page header styles ============== */
+/* ============== Hero section styles ============== */
+.hero {
+  background: #2e2f42;
+  width: 1440px;
+  height: 600px;
+}
+.hero-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.btn {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  width: 169px;
+  height: 56px;
+  background: #404bbf;
+}
+.btn:hover,
+.btn.focus {
+  background: #4d5ae5;
+}
+/* ============== /Hero section styles ============== */
+/* ============== Benefits section styles ============== */
+.benefits-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.benefits-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* ============== /Benefits section styles ============== */
+/* ============== /Our team section styles ============== */
+.team {
+width: 1440px;
+height: 732px;
+background: #f4f4fd;
+}
+.team-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+}
