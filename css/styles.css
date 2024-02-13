@@ -14,9 +14,6 @@ a {
 button {
   cursor: pointer;
 }
-img {
-  display: block;
-}
 h2,
 h3 {
   color: #2e2f42;
@@ -84,7 +81,7 @@ h3 {
   letter-spacing: 0.04em;
   line-height: 1.5;
   color: #ffffff;
-  background: #404bbf;
+  background: #4D5AE5;
 }
 .btn:hover,
 .btn.focus {
